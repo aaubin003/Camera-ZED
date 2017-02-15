@@ -1,0 +1,29 @@
+﻿La génération a démarré 15/02/2017 13:46:47.
+     1>Projet "D:\Documents\ENSC 2A\Semestre 2\Projet Info\Projet\Build\Nom_du_projet.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"C:\Program Files (x86)\ZED SDK\include" /I"D:\Documents\ENSC 2A\Semestre 2\Projet Info\Projet\include" /I"D:\Documents\ENSC 2A\Semestre 2\Projet Info\eigen-eigen-da9b4e14c255" /I"D:\Documents\ENSC 2A\Semestre 2\Projet Info\eigen-eigen-da9b4e14c255\Eigen" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Nom_du_projet.dir\Debug\\" /Fd"Nom_du_projet.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  -g -O3 -std=c++0x ..\src\main.cpp
+     1>cl : Ligne de commande warning D9002: option '-g' inconnue ignorée
+     1>cl : Ligne de commande warning D9002: option '-O3' inconnue ignorée
+     1>cl : Ligne de commande warning D9002: option '-std=c++0x' inconnue ignorée
+         main.cpp
+     1>..\src\main.cpp(11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(12): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(15): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(16): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(17): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(18): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(21): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>C:\Program Files (x86)\ZED SDK\include\zed/Camera.hpp(120): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\src\main.cpp(25): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(26): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>..\src\main.cpp(77): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>..\src\main.cpp(78): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>..\src\main.cpp(129): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\ENSC 2A\Semestre 2\Projet Info\Projet\Build\Debug\Nom_du_projet.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Program Files (x86)/ZED SDK/lib" /LIBPATH:"C:/Program Files (x86)/ZED SDK/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib sl_zed64.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart_static.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\npps.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nppi.lib" opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/ENSC 2A/Semestre 2/Projet Info/Projet/Build/Debug/Nom_du_projet.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/ENSC 2A/Semestre 2/Projet Info/Projet/Build/Debug/Nom_du_projet.lib" /MACHINE:X64  /machine:x64 Nom_du_projet.dir\Debug\main.obj
+         Nom_du_projet.vcxproj -> D:\Documents\ENSC 2A\Semestre 2\Projet Info\Projet\Build\Debug\Nom_du_projet.exe
+     1>Génération du projet "D:\Documents\ENSC 2A\Semestre 2\Projet Info\Projet\Build\Nom_du_projet.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.61
